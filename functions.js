@@ -35,3 +35,31 @@ return"F is anything"
 
 
 console.log(getGrade(88));
+//
+var b=10;
+function student (){
+  var name="lisa";
+  var age=18;
+  var classes="akirachixs";
+  console.log(name);
+console .log(age);
+console.log(classes);
+}
+student()
+//
+//
+function makeFunc(){
+  var name="conny";
+  function innerFunc(){
+    console.log (name);
+  }
+  return innerFunc; 
+  }
+  var myName=makeFunc();
+  console.dir(myName);
+  myName();
+ 
+function outer(){
+  
+}
+//
